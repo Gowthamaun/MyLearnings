@@ -8,24 +8,10 @@ public class Pattern {
         // D();
         // E();
         // F();
-        //G();
-       patternLast(5);
+        G();
     }
 
-    static void patternLast(int row)
-    {
-        int n=2*row-2;
-        for(int i=0;i<=n;i++)
-        {
-            for(int j=0;j<=n;j++)
-            {
-                int element=row-Math.min(Math.min(i,n-i),Math.min(j, n-j));
-                System.out.print(element+" ");
-            }
-            System.out.println();
-        }
-    }
-
+    
     static void A()
     {
         char ch='A';
